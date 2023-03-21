@@ -5,7 +5,9 @@
 // Hoera!
 // Hoera!
 // ==========================================
-
+for (let i = 0;i<3;i++) {
+    console.log("Hoera!");
+}
 
 
 
@@ -20,7 +22,9 @@
 // De waarde van i is: 4
 // ==========================================
 
-
+for (let i = 0; i < 5; i++) {
+    console.log("De waarde van i is " + i);
+}
 
 
 
@@ -38,7 +42,9 @@
 // 10
 // ==========================================
 
-
+for (let i = 2; i <11; i++) {
+    console.log(i);
+}
 
 
 
@@ -55,7 +61,9 @@
 // 63
 // 70
 // ==========================================
-
+for (let i = 2; i <11; i++) {
+    console.log(i * 7);
+}
 
 
 
@@ -74,7 +82,9 @@
 // Wanneer een hond 10 jaar is, staat dat gelijk aan 70 mensenjaren.
 // ==========================================
 
-
+for (let i = 2; i <11; i++) {
+    console.log("Wanneer een hond " + i + " jaar is, staat dat gelijk aan " + (i * 7) + " mensenjaren.");
+}
 
 
 
@@ -92,6 +102,15 @@
 // Tip 2: Een getal is EVEN als je het deelt door 2 en er blijft niets over... Doet dit nog geen belletje rinkelen? Google dan eens naar 'MDN webdocs remainder operator'.
 // ==========================================
 
+for (let i = 0;i <16;i++){
+    if (i%2===0) {
+        console.log(i + " is even");
+    } else {
+        console.log(i + " is oneven");
+    }
 
+
+    console.log()
+}
 
 
